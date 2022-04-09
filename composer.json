@@ -1,0 +1,33 @@
+{
+    "name": "w1pereira/omnipay-pagarme",
+    "description": "Pagar.me driver for the Omnipay multi-gateway payment processing library",
+    "keywords": [
+        "pagarme",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "payments"
+    ],
+    "homepage": "https://github.com/w1pereira/omnipay-pagarme",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Pagarme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Pereira",
+            "email": "william@williampereira.me",
+            "homepage": "https://williampereira.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.4|^8",
+        "league/omnipay": "^3",
+        "ext-json": "*"
+    }
+}
